@@ -107,10 +107,20 @@ public class Program
         priorityQueue.Add(5);
         priorityQueue.Add(2);
         priorityQueue.Add(8);
+        priorityQueue.Add(1);
+        priorityQueue.Add(9);
+        priorityQueue.Add(9);
 
-        Console.WriteLine("Peek: " + priorityQueue.Peek()); // Вывод: 8
-        Console.WriteLine("Poll: " + priorityQueue.Poll()); // Вывод: 8
+        Console.WriteLine("Peek: " + priorityQueue.Peek());
+        Console.WriteLine("Poll: " + priorityQueue.Poll());
+        Console.WriteLine("Peek: " + priorityQueue.Peek());
+        Console.WriteLine("Poll: " + priorityQueue.Poll());
+        Console.WriteLine("Peek: " + priorityQueue.Peek());
+        Console.WriteLine("Poll: " + priorityQueue.Poll());        
+        Console.WriteLine("Peek: " + priorityQueue.Peek());
+        Console.WriteLine("Poll: " + priorityQueue.Poll());
+        Console.WriteLine("Peek: " + priorityQueue.Peek());
 
-        Console.WriteLine("Size: " + priorityQueue.Size); // Вывод: 2
+        Console.WriteLine("Size: " + priorityQueue.Size);
     }
 }
