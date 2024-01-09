@@ -116,10 +116,13 @@ public class Program
         Console.WriteLine("Peek: " + priorityQueue.Peek());
         Console.WriteLine("Poll: " + priorityQueue.Poll());
         Console.WriteLine("Peek: " + priorityQueue.Peek());
-        Console.WriteLine("Poll: " + priorityQueue.Poll());        
+        Console.WriteLine("Poll: " + priorityQueue.Poll());
         Console.WriteLine("Peek: " + priorityQueue.Peek());
         Console.WriteLine("Poll: " + priorityQueue.Poll());
         Console.WriteLine("Peek: " + priorityQueue.Peek());
+        Console.WriteLine("Poll: " + priorityQueue.Poll());
+        Console.WriteLine("Peek: " + priorityQueue.Peek());
+        Console.WriteLine("Poll: " + priorityQueue.Poll());
 
         Console.WriteLine("Size: " + priorityQueue.Size);
     }
